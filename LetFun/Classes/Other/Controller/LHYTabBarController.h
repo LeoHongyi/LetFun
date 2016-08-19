@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LHYTabBarController.h
 //  LetFun
 //
 //  Created by hongyi liu on 8/18/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LHYTabBarController : UITabBarController
 
 @end
-

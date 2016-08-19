@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  LetFun
+//
+//  Created by hongyi liu on 8/18/16.
+//  Copyright © 2016 hongyi liu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+LHYExtension.h"
+#import "UIBarButtonItem+LHYExtension.h"
+
+#ifdef DEBUG
+#define LHYLog(...) NSLog(__VA_ARGS__)
+#else
+#define LHYLog(...)
+#endif
+
+#define LHYRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define LHYGlobalBg LHYRGBColor(223,223,233)
+
+#endif /* PrefixHeader_pch */

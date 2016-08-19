@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F64CB6B41D664AE400215471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6B31D664AE400215471 /* main.m */; };
-		F64CB6B71D664AE400215471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6B61D664AE400215471 /* AppDelegate.m */; };
-		F64CB6BA1D664AE400215471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6B91D664AE400215471 /* ViewController.m */; };
 		F64CB6BF1D664AE400215471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64CB6BE1D664AE400215471 /* Assets.xcassets */; };
 		F64CB6CD1D664AE400215471 /* LetFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6CC1D664AE400215471 /* LetFunTests.m */; };
 		F64CB6D81D664AE400215471 /* LetFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6D71D664AE400215471 /* LetFunUITests.m */; };
+		F64CB7271D66BFB900215471 /* LHYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7021D66BFB900215471 /* LHYEssenceViewController.m */; };
+		F64CB7281D66BFB900215471 /* LHYfriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7081D66BFB900215471 /* LHYfriendTrendsViewController.m */; };
+		F64CB7291D66BFB900215471 /* LHYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB70E1D66BFB900215471 /* LHYMeViewController.m */; };
+		F64CB72A1D66BFB900215471 /* LHYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7141D66BFB900215471 /* LHYNewViewController.m */; };
+		F64CB72B1D66BFB900215471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7191D66BFB900215471 /* AppDelegate.m */; };
+		F64CB72C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB71C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m */; };
+		F64CB72D1D66BFB900215471 /* UIView+LHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB71E1D66BFB900215471 /* UIView+LHYExtension.m */; };
+		F64CB72E1D66BFB900215471 /* LHYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7211D66BFB900215471 /* LHYTabBarController.m */; };
+		F64CB72F1D66BFB900215471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7221D66BFB900215471 /* main.m */; };
+		F64CB7301D66BFB900215471 /* LHYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7261D66BFB900215471 /* LHYTabBar.m */; };
+		F64CB7331D6734BC00215471 /* LHYUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7321D6734BC00215471 /* LHYUINavigationController.m */; };
+		F64CB7381D6764A000215471 /* LHYfriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */; };
+		F64CB73A1D676BB000215471 /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64CB7391D676BB000215471 /* XMGFriendTrendsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +44,6 @@
 
 /* Begin PBXFileReference section */
 		F64CB6AF1D664AE400215471 /* LetFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F64CB6B31D664AE400215471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F64CB6B51D664AE400215471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F64CB6B61D664AE400215471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F64CB6B81D664AE400215471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F64CB6B91D664AE400215471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F64CB6BE1D664AE400215471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64CB6C31D664AE400215471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F64CB6C81D664AE400215471 /* LetFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +52,30 @@
 		F64CB6D31D664AE400215471 /* LetFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64CB6D71D664AE400215471 /* LetFunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetFunUITests.m; sourceTree = "<group>"; };
 		F64CB6D91D664AE400215471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64CB7011D66BFB900215471 /* LHYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYEssenceViewController.h; sourceTree = "<group>"; };
+		F64CB7021D66BFB900215471 /* LHYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYEssenceViewController.m; sourceTree = "<group>"; };
+		F64CB7071D66BFB900215471 /* LHYfriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYfriendTrendsViewController.h; sourceTree = "<group>"; };
+		F64CB7081D66BFB900215471 /* LHYfriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYfriendTrendsViewController.m; sourceTree = "<group>"; };
+		F64CB70D1D66BFB900215471 /* LHYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYMeViewController.h; sourceTree = "<group>"; };
+		F64CB70E1D66BFB900215471 /* LHYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYMeViewController.m; sourceTree = "<group>"; };
+		F64CB7131D66BFB900215471 /* LHYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYNewViewController.h; sourceTree = "<group>"; };
+		F64CB7141D66BFB900215471 /* LHYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYNewViewController.m; sourceTree = "<group>"; };
+		F64CB7181D66BFB900215471 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F64CB7191D66BFB900215471 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F64CB71B1D66BFB900215471 /* UIBarButtonItem+LHYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LHYExtension.h"; sourceTree = "<group>"; };
+		F64CB71C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LHYExtension.m"; sourceTree = "<group>"; };
+		F64CB71D1D66BFB900215471 /* UIView+LHYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LHYExtension.h"; sourceTree = "<group>"; };
+		F64CB71E1D66BFB900215471 /* UIView+LHYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LHYExtension.m"; sourceTree = "<group>"; };
+		F64CB7201D66BFB900215471 /* LHYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYTabBarController.h; sourceTree = "<group>"; };
+		F64CB7211D66BFB900215471 /* LHYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYTabBarController.m; sourceTree = "<group>"; };
+		F64CB7221D66BFB900215471 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64CB7231D66BFB900215471 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F64CB7251D66BFB900215471 /* LHYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYTabBar.h; sourceTree = "<group>"; };
+		F64CB7261D66BFB900215471 /* LHYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYTabBar.m; sourceTree = "<group>"; };
+		F64CB7311D6734BC00215471 /* LHYUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHYUINavigationController.h; path = ../View/LHYUINavigationController.h; sourceTree = "<group>"; };
+		F64CB7321D6734BC00215471 /* LHYUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHYUINavigationController.m; path = ../View/LHYUINavigationController.m; sourceTree = "<group>"; };
+		F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHYfriendTrendsViewController.xib; sourceTree = "<group>"; };
+		F64CB7391D676BB000215471 /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +126,7 @@
 		F64CB6B11D664AE400215471 /* LetFun */ = {
 			isa = PBXGroup;
 			children = (
-				F64CB6B51D664AE400215471 /* AppDelegate.h */,
-				F64CB6B61D664AE400215471 /* AppDelegate.m */,
-				F64CB6B81D664AE400215471 /* ViewController.h */,
-				F64CB6B91D664AE400215471 /* ViewController.m */,
+				F64CB6FE1D66BFB900215471 /* Classes */,
 				F64CB6B21D664AE400215471 /* Supporting Files */,
 			);
 			path = LetFun;
@@ -111,7 +137,6 @@
 			children = (
 				F64CB6BE1D664AE400215471 /* Assets.xcassets */,
 				F64CB6C31D664AE400215471 /* Info.plist */,
-				F64CB6B31D664AE400215471 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +157,197 @@
 				F64CB6D91D664AE400215471 /* Info.plist */,
 			);
 			path = LetFunUITests;
+			sourceTree = "<group>";
+		};
+		F64CB6FE1D66BFB900215471 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB6FF1D66BFB900215471 /* Essence */,
+				F64CB7051D66BFB900215471 /* friendTrends */,
+				F64CB70B1D66BFB900215471 /* Me */,
+				F64CB7111D66BFB900215471 /* New */,
+				F64CB7171D66BFB900215471 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F64CB6FF1D66BFB900215471 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7001D66BFB900215471 /* Controller */,
+				F64CB7031D66BFB900215471 /* Model */,
+				F64CB7041D66BFB900215471 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		F64CB7001D66BFB900215471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7011D66BFB900215471 /* LHYEssenceViewController.h */,
+				F64CB7021D66BFB900215471 /* LHYEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64CB7031D66BFB900215471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64CB7041D66BFB900215471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64CB7051D66BFB900215471 /* friendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7061D66BFB900215471 /* Controller */,
+				F64CB7091D66BFB900215471 /* Model */,
+				F64CB70A1D66BFB900215471 /* View */,
+			);
+			path = friendTrends;
+			sourceTree = "<group>";
+		};
+		F64CB7061D66BFB900215471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7391D676BB000215471 /* XMGFriendTrendsViewController.xib */,
+				F64CB7071D66BFB900215471 /* LHYfriendTrendsViewController.h */,
+				F64CB7081D66BFB900215471 /* LHYfriendTrendsViewController.m */,
+				F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64CB7091D66BFB900215471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64CB70A1D66BFB900215471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64CB70B1D66BFB900215471 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB70C1D66BFB900215471 /* Controller */,
+				F64CB70F1D66BFB900215471 /* Model */,
+				F64CB7101D66BFB900215471 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F64CB70C1D66BFB900215471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB70D1D66BFB900215471 /* LHYMeViewController.h */,
+				F64CB70E1D66BFB900215471 /* LHYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64CB70F1D66BFB900215471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64CB7101D66BFB900215471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64CB7111D66BFB900215471 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7121D66BFB900215471 /* Controller */,
+				F64CB7151D66BFB900215471 /* Model */,
+				F64CB7161D66BFB900215471 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		F64CB7121D66BFB900215471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7131D66BFB900215471 /* LHYNewViewController.h */,
+				F64CB7141D66BFB900215471 /* LHYNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64CB7151D66BFB900215471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64CB7161D66BFB900215471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64CB7171D66BFB900215471 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7241D66BFB900215471 /* View */,
+				F64CB71F1D66BFB900215471 /* Controller */,
+				F64CB71A1D66BFB900215471 /* category */,
+				F64CB7181D66BFB900215471 /* AppDelegate.h */,
+				F64CB7191D66BFB900215471 /* AppDelegate.m */,
+				F64CB7221D66BFB900215471 /* main.m */,
+				F64CB7231D66BFB900215471 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F64CB71A1D66BFB900215471 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB71B1D66BFB900215471 /* UIBarButtonItem+LHYExtension.h */,
+				F64CB71C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m */,
+				F64CB71D1D66BFB900215471 /* UIView+LHYExtension.h */,
+				F64CB71E1D66BFB900215471 /* UIView+LHYExtension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F64CB71F1D66BFB900215471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7311D6734BC00215471 /* LHYUINavigationController.h */,
+				F64CB7321D6734BC00215471 /* LHYUINavigationController.m */,
+				F64CB7201D66BFB900215471 /* LHYTabBarController.h */,
+				F64CB7211D66BFB900215471 /* LHYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64CB7241D66BFB900215471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F64CB7251D66BFB900215471 /* LHYTabBar.h */,
+				F64CB7261D66BFB900215471 /* LHYTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +412,7 @@
 		F64CB6A71D664AE400215471 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LHY;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "hongyi liu";
 				TargetAttributes = {
@@ -238,6 +455,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64CB7381D6764A000215471 /* LHYfriendTrendsViewController.xib in Resources */,
+				F64CB73A1D676BB000215471 /* XMGFriendTrendsViewController.xib in Resources */,
 				F64CB6BF1D664AE400215471 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +482,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F64CB6BA1D664AE400215471 /* ViewController.m in Sources */,
-				F64CB6B71D664AE400215471 /* AppDelegate.m in Sources */,
-				F64CB6B41D664AE400215471 /* main.m in Sources */,
+				F64CB7291D66BFB900215471 /* LHYMeViewController.m in Sources */,
+				F64CB7281D66BFB900215471 /* LHYfriendTrendsViewController.m in Sources */,
+				F64CB72C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m in Sources */,
+				F64CB72D1D66BFB900215471 /* UIView+LHYExtension.m in Sources */,
+				F64CB7271D66BFB900215471 /* LHYEssenceViewController.m in Sources */,
+				F64CB72E1D66BFB900215471 /* LHYTabBarController.m in Sources */,
+				F64CB72A1D66BFB900215471 /* LHYNewViewController.m in Sources */,
+				F64CB72F1D66BFB900215471 /* main.m in Sources */,
+				F64CB72B1D66BFB900215471 /* AppDelegate.m in Sources */,
+				F64CB7331D6734BC00215471 /* LHYUINavigationController.m in Sources */,
+				F64CB7301D66BFB900215471 /* LHYTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +617,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = LetFun/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = LetFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LetFun;
@@ -405,6 +633,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = LetFun/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = LetFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LetFun;
