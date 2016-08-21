@@ -7,6 +7,7 @@
 //
 
 #import "LHYfriendTrendsViewController.h"
+#import "LHYRecommnedViewController.h"
 
 @interface LHYfriendTrendsViewController ()
 
@@ -27,7 +28,9 @@
 
 -(void)friendsClick
 {
-    LHYLog(@"%s", __func__);
+    //LHYLog(@"%s", __func__);
+    LHYRecommnedViewController *vc = [[LHYRecommnedViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 //-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LHYRecommnedViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="n1T-ia-y7i" id="HmO-FU-dZ2"/>
+                <outlet property="userTableView" destination="GR2-wb-heX" id="Ryg-VW-NDg"/>
+                <outlet property="view" destination="8tK-qf-cYC" id="8hP-Zs-Bot"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8tK-qf-cYC">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="n1T-ia-y7i" userLabel="左侧">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="emj-vv-Qki"/>
+                    </constraints>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Q1j-Mu-kwp"/>
+                        <outlet property="delegate" destination="-1" id="lVA-Vb-oVw"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GR2-wb-heX" userLabel="右侧">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="voU-vd-dLS"/>
+                        <outlet property="delegate" destination="-1" id="g7r-hj-4Pk"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="n1T-ia-y7i" firstAttribute="leading" secondItem="8tK-qf-cYC" secondAttribute="leading" id="O84-Tf-okG"/>
+                <constraint firstItem="n1T-ia-y7i" firstAttribute="top" secondItem="8tK-qf-cYC" secondAttribute="top" id="dEd-Le-DAB"/>
+                <constraint firstAttribute="bottom" secondItem="n1T-ia-y7i" secondAttribute="bottom" id="dfS-Li-jCd"/>
+                <constraint firstItem="GR2-wb-heX" firstAttribute="top" secondItem="8tK-qf-cYC" secondAttribute="top" id="dkY-Tz-B0q"/>
+                <constraint firstAttribute="bottom" secondItem="GR2-wb-heX" secondAttribute="bottom" id="fXi-Sb-f9F"/>
+                <constraint firstAttribute="trailing" secondItem="GR2-wb-heX" secondAttribute="trailing" id="p8G-dm-wM4"/>
+                <constraint firstItem="GR2-wb-heX" firstAttribute="leading" secondItem="n1T-ia-y7i" secondAttribute="trailing" id="rOY-7A-08E"/>
+            </constraints>
+            <point key="canvasLocation" x="269" y="-113"/>
+        </view>
+    </objects>
+</document>

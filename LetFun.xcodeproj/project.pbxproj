@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAA9F804B47F9318DBADDD1 /* libPods-LetFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E77325B25A3DCCB8132A5 /* libPods-LetFun.a */; };
 		F64CB6BF1D664AE400215471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64CB6BE1D664AE400215471 /* Assets.xcassets */; };
 		F64CB6CD1D664AE400215471 /* LetFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6CC1D664AE400215471 /* LetFunTests.m */; };
 		F64CB6D81D664AE400215471 /* LetFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB6D71D664AE400215471 /* LetFunUITests.m */; };
@@ -23,6 +24,16 @@
 		F64CB7331D6734BC00215471 /* LHYUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB7321D6734BC00215471 /* LHYUINavigationController.m */; };
 		F64CB7381D6764A000215471 /* LHYfriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */; };
 		F64CB73A1D676BB000215471 /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64CB7391D676BB000215471 /* XMGFriendTrendsViewController.xib */; };
+		F659B48B1D67BD5C00A7C48D /* LHYRecommnedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4891D67BD5C00A7C48D /* LHYRecommnedViewController.m */; };
+		F659B48C1D67BD5C00A7C48D /* LHYRecommnedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F659B48A1D67BD5C00A7C48D /* LHYRecommnedViewController.xib */; };
+		F659B4911D68C08A00A7C48D /* LHYRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4901D68C08A00A7C48D /* LHYRecommendCategory.m */; };
+		F659B4981D693F8F00A7C48D /* LHYRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4961D693F8F00A7C48D /* LHYRecommendCategoryCell.m */; };
+		F659B4991D693F8F00A7C48D /* LHYRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F659B4971D693F8F00A7C48D /* LHYRecommendCategoryCell.xib */; };
+		F659B4A01D6955BF00A7C48D /* LHYSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B49F1D6955BF00A7C48D /* LHYSettingTableViewController.m */; };
+		F659B4A41D69678F00A7C48D /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4A31D69678F00A7C48D /* Foundation+Log.m */; };
+		F659B4A81D6969E100A7C48D /* LHYRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4A61D6969E100A7C48D /* LHYRecommendUserCell.m */; };
+		F659B4A91D6969E100A7C48D /* LHYRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F659B4A71D6969E100A7C48D /* LHYRecommendUserCell.xib */; };
+		F659B4AC1D696CEC00A7C48D /* LHYRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F659B4AB1D696CEC00A7C48D /* LHYRecommendUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334E77325B25A3DCCB8132A5 /* libPods-LetFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LetFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D7DC52BA417A6704B0FB7C /* Pods-LetFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetFun/Pods-LetFun.release.xcconfig"; sourceTree = "<group>"; };
+		A2C07878598BAA8194397273 /* Pods-LetFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetFun/Pods-LetFun.debug.xcconfig"; sourceTree = "<group>"; };
 		F64CB6AF1D664AE400215471 /* LetFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64CB6BE1D664AE400215471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64CB6C31D664AE400215471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +90,22 @@
 		F64CB7321D6734BC00215471 /* LHYUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHYUINavigationController.m; path = ../View/LHYUINavigationController.m; sourceTree = "<group>"; };
 		F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHYfriendTrendsViewController.xib; sourceTree = "<group>"; };
 		F64CB7391D676BB000215471 /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		F659B4881D67BD5C00A7C48D /* LHYRecommnedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYRecommnedViewController.h; sourceTree = "<group>"; };
+		F659B4891D67BD5C00A7C48D /* LHYRecommnedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYRecommnedViewController.m; sourceTree = "<group>"; };
+		F659B48A1D67BD5C00A7C48D /* LHYRecommnedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHYRecommnedViewController.xib; sourceTree = "<group>"; };
+		F659B48F1D68C08A00A7C48D /* LHYRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYRecommendCategory.h; sourceTree = "<group>"; };
+		F659B4901D68C08A00A7C48D /* LHYRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYRecommendCategory.m; sourceTree = "<group>"; };
+		F659B4951D693F8F00A7C48D /* LHYRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYRecommendCategoryCell.h; sourceTree = "<group>"; };
+		F659B4961D693F8F00A7C48D /* LHYRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYRecommendCategoryCell.m; sourceTree = "<group>"; };
+		F659B4971D693F8F00A7C48D /* LHYRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHYRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		F659B49E1D6955BF00A7C48D /* LHYSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYSettingTableViewController.h; sourceTree = "<group>"; };
+		F659B49F1D6955BF00A7C48D /* LHYSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYSettingTableViewController.m; sourceTree = "<group>"; };
+		F659B4A31D69678F00A7C48D /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		F659B4A51D6969E100A7C48D /* LHYRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYRecommendUserCell.h; sourceTree = "<group>"; };
+		F659B4A61D6969E100A7C48D /* LHYRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYRecommendUserCell.m; sourceTree = "<group>"; };
+		F659B4A71D6969E100A7C48D /* LHYRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHYRecommendUserCell.xib; sourceTree = "<group>"; };
+		F659B4AA1D696CEC00A7C48D /* LHYRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYRecommendUser.h; sourceTree = "<group>"; };
+		F659B4AB1D696CEC00A7C48D /* LHYRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYRecommendUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAA9F804B47F9318DBADDD1 /* libPods-LetFun.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +134,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129612BB21D1B98EE319CE1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C07878598BAA8194397273 /* Pods-LetFun.debug.xcconfig */,
+				84D7DC52BA417A6704B0FB7C /* Pods-LetFun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61205AD83EC21B736780059E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				334E77325B25A3DCCB8132A5 /* libPods-LetFun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F64CB6A61D664AE400215471 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +158,8 @@
 				F64CB6CB1D664AE400215471 /* LetFunTests */,
 				F64CB6D61D664AE400215471 /* LetFunUITests */,
 				F64CB6B01D664AE400215471 /* Products */,
+				129612BB21D1B98EE319CE1F /* Pods */,
+				61205AD83EC21B736780059E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +212,7 @@
 		F64CB6FE1D66BFB900215471 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F659B49A1D69559800A7C48D /* Setting */,
 				F64CB6FF1D66BFB900215471 /* Essence */,
 				F64CB7051D66BFB900215471 /* friendTrends */,
 				F64CB70B1D66BFB900215471 /* Me */,
@@ -221,6 +272,9 @@
 				F64CB7071D66BFB900215471 /* LHYfriendTrendsViewController.h */,
 				F64CB7081D66BFB900215471 /* LHYfriendTrendsViewController.m */,
 				F64CB7371D6764A000215471 /* LHYfriendTrendsViewController.xib */,
+				F659B4881D67BD5C00A7C48D /* LHYRecommnedViewController.h */,
+				F659B4891D67BD5C00A7C48D /* LHYRecommnedViewController.m */,
+				F659B48A1D67BD5C00A7C48D /* LHYRecommnedViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -228,6 +282,10 @@
 		F64CB7091D66BFB900215471 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F659B48F1D68C08A00A7C48D /* LHYRecommendCategory.h */,
+				F659B4901D68C08A00A7C48D /* LHYRecommendCategory.m */,
+				F659B4AA1D696CEC00A7C48D /* LHYRecommendUser.h */,
+				F659B4AB1D696CEC00A7C48D /* LHYRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +293,12 @@
 		F64CB70A1D66BFB900215471 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F659B4951D693F8F00A7C48D /* LHYRecommendCategoryCell.h */,
+				F659B4961D693F8F00A7C48D /* LHYRecommendCategoryCell.m */,
+				F659B4971D693F8F00A7C48D /* LHYRecommendCategoryCell.xib */,
+				F659B4A51D6969E100A7C48D /* LHYRecommendUserCell.h */,
+				F659B4A61D6969E100A7C48D /* LHYRecommendUserCell.m */,
+				F659B4A71D6969E100A7C48D /* LHYRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +372,7 @@
 		F64CB7171D66BFB900215471 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				F659B4A31D69678F00A7C48D /* Foundation+Log.m */,
 				F64CB7241D66BFB900215471 /* View */,
 				F64CB71F1D66BFB900215471 /* Controller */,
 				F64CB71A1D66BFB900215471 /* category */,
@@ -350,6 +415,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F659B49A1D69559800A7C48D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F659B49B1D69559800A7C48D /* Controller */,
+				F659B49C1D69559800A7C48D /* Model */,
+				F659B49D1D69559800A7C48D /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		F659B49B1D69559800A7C48D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F659B49E1D6955BF00A7C48D /* LHYSettingTableViewController.h */,
+				F659B49F1D6955BF00A7C48D /* LHYSettingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F659B49C1D69559800A7C48D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F659B49D1D69559800A7C48D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -357,9 +455,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F64CB6DC1D664AE400215471 /* Build configuration list for PBXNativeTarget "LetFun" */;
 			buildPhases = (
+				690E4D0D88EFA1261DB046A9 /* [CP] Check Pods Manifest.lock */,
 				F64CB6AB1D664AE400215471 /* Sources */,
 				F64CB6AC1D664AE400215471 /* Frameworks */,
 				F64CB6AD1D664AE400215471 /* Resources */,
+				8DE430AA2C546E569852984B /* [CP] Embed Pods Frameworks */,
+				4B68D9796AB03019DBEFB4D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -456,6 +557,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64CB7381D6764A000215471 /* LHYfriendTrendsViewController.xib in Resources */,
+				F659B4A91D6969E100A7C48D /* LHYRecommendUserCell.xib in Resources */,
+				F659B4991D693F8F00A7C48D /* LHYRecommendCategoryCell.xib in Resources */,
+				F659B48C1D67BD5C00A7C48D /* LHYRecommnedViewController.xib in Resources */,
 				F64CB73A1D676BB000215471 /* XMGFriendTrendsViewController.xib in Resources */,
 				F64CB6BF1D664AE400215471 /* Assets.xcassets in Resources */,
 			);
@@ -477,22 +581,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B68D9796AB03019DBEFB4D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetFun/Pods-LetFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690E4D0D88EFA1261DB046A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE430AA2C546E569852984B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetFun/Pods-LetFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F64CB6AB1D664AE400215471 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F64CB7291D66BFB900215471 /* LHYMeViewController.m in Sources */,
+				F659B48B1D67BD5C00A7C48D /* LHYRecommnedViewController.m in Sources */,
+				F659B4A01D6955BF00A7C48D /* LHYSettingTableViewController.m in Sources */,
 				F64CB7281D66BFB900215471 /* LHYfriendTrendsViewController.m in Sources */,
 				F64CB72C1D66BFB900215471 /* UIBarButtonItem+LHYExtension.m in Sources */,
 				F64CB72D1D66BFB900215471 /* UIView+LHYExtension.m in Sources */,
 				F64CB7271D66BFB900215471 /* LHYEssenceViewController.m in Sources */,
 				F64CB72E1D66BFB900215471 /* LHYTabBarController.m in Sources */,
 				F64CB72A1D66BFB900215471 /* LHYNewViewController.m in Sources */,
+				F659B4981D693F8F00A7C48D /* LHYRecommendCategoryCell.m in Sources */,
 				F64CB72F1D66BFB900215471 /* main.m in Sources */,
 				F64CB72B1D66BFB900215471 /* AppDelegate.m in Sources */,
 				F64CB7331D6734BC00215471 /* LHYUINavigationController.m in Sources */,
 				F64CB7301D66BFB900215471 /* LHYTabBar.m in Sources */,
+				F659B4911D68C08A00A7C48D /* LHYRecommendCategory.m in Sources */,
+				F659B4AC1D696CEC00A7C48D /* LHYRecommendUser.m in Sources */,
+				F659B4A41D69678F00A7C48D /* Foundation+Log.m in Sources */,
+				F659B4A81D6969E100A7C48D /* LHYRecommendUserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +771,7 @@
 		};
 		F64CB6DD1D664AE400215471 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C07878598BAA8194397273 /* Pods-LetFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -619,6 +779,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = LetFun/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = LetFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LetFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -628,6 +789,7 @@
 		};
 		F64CB6DE1D664AE400215471 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D7DC52BA417A6704B0FB7C /* Pods-LetFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -635,6 +797,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = LetFun/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = LetFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LetFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,6 +870,7 @@
 				F64CB6DE1D664AE400215471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F64CB6DF1D664AE400215471 /* Build configuration list for PBXNativeTarget "LetFunTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +879,7 @@
 				F64CB6E11D664AE400215471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F64CB6E21D664AE400215471 /* Build configuration list for PBXNativeTarget "LetFunUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +888,7 @@
 				F64CB6E41D664AE400215471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

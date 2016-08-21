@@ -7,6 +7,8 @@
 //
 
 #import "LHYMeViewController.h"
+#import "LHYSettingTableViewController.h"
+
 
 @interface LHYMeViewController ()
 
@@ -35,7 +37,14 @@
 
 -(void)settingClick
 {
-    LHYLog(@"%s", __func__);
+    //LHYLog(@"%s", __func__);
+    LHYSettingTableViewController *settingVc = [[LHYSettingTableViewController alloc]init];
+    settingVc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:settingVc animated:YES];
+    
+    
+    
+    
 }
 
 -(void)nighModeClick
